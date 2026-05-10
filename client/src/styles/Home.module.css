@@ -1,0 +1,58 @@
+.page {
+  width: 100%;
+  background-color: white;
+}
+
+.line {
+  width: 100%;
+  border: solid rgb(66, 130, 181);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-weight: bolder;
+  color: rgb(53, 162, 176);
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: rgb(44, 133, 145);
+  cursor: pointer;
+}
+
+.Featured {
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.Navigate {
+  padding: 0 3%;
+  background-color: white;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.headings > h2 {
+  font-size: 2rem;
+}
