@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+
+.wrapper {
+  min-height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  font-family: "Rajdhani";
+  padding: 20px 10px;
+}
+
+.card {
+  background-color: #000000;
+  width: 100%;
+  max-width: 380px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  border: 2px solid #bababa;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 6px;
+  margin-left: 10px;
+}
+
+.input {
+  background-color: #cccccc;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus {
+  border-color: #7851a9;
+  background-color: #bababa;
+}
+
+.errorText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.submitBtn {
+  background-color: #7851a9;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Rajdhani";
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.submitBtn:hover {
+  box-shadow: 0 0 2px 2px lightslategray;
+  background-color: #472d67;
+  transform: translateY(-1px);
+}
+
+.loginContainer {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.existingUser {
+  color: #7851a9;
+}
+
+.loginLink {
+  color: #7851a9;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.loginLink:hover {
+  color: #552c88;
+}

@@ -1,0 +1,67 @@
+.page {
+  width: 100%;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.line {
+  width: 100%;
+  border: solid #7851a9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #c9a0dc;
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #7851a9;
+  cursor: pointer;
+}
+
+.Featured {
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.Navigate {
+  padding: 0 3%;
+  background-color: #0d0d0d;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.headings > h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
